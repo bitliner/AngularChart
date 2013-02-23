@@ -44,6 +44,7 @@ The following attributes of `chart` tag are now supported:
 * yInterval: the interval of markers of y axis (if not specified the library calculates it automatically)
 * yMin: the minimum value of y axis (if not specified the library calculates it automatically)
 * yMax the minimum value of y axis (if not specified the library calculates it automatically)
+* formatter: the name fo variable in the scope that points to function/value that will be displayed when the mouse is over a point of a line
 
 All attributes are optional, except xData and yData
 
