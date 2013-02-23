@@ -28,11 +28,7 @@ If the chart is a line chart, the data is an object with 2 properties:
 
 See the example, and `examples/data/line-chart.json` file to see the format of data of a line chart.
 
-### Type of charts
-
-Now it supports only a line chart, and it uses HighCharts library to build the charts. More types and more libraries will be supported in the next future.
-
-## Documentation
+### Html supported attributes
 
 The following attributes of `chart` tag are now supported:
 * title: the title of the chart
@@ -47,6 +43,10 @@ The following attributes of `chart` tag are now supported:
 * formatter: the name fo variable in the scope that points to function/value that will be displayed when the mouse is over a point of a line
 
 All attributes are optional, except xData and yData
+
+### Type of charts
+
+Now it supports only a line chart, and it uses HighCharts library to build the charts. More types and more libraries will be supported in the next future.
 
 ## TODO
 
