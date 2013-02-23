@@ -18,10 +18,10 @@ where xData and yData attributes specify the name of the variables that point to
 
 It depends on type of the chart.
 If the chart is a line chart, the data is an object with 2 properties:
-* xData: data of x axis, it is an array of values
-* yData: data of y axis, it is an array of objects, where every has 2 parameters
-  * name: specify the name of the line 
-  * data: an array of values. The lenght of the array is the same length of xData, and the value in each position of the array coresponds to the x value at same position in the xData array
+* **xData**: data of x axis, it is an array of values
+* **yData**: data of y axis, it is an array of objects, where every has 2 parameters
+  * **name**: specify the name of the line 
+  * **data**: an array of values. The lenght of the array is the same length of xData, and the value in each position of the array coresponds to the x value at same position in the xData array
 
 See the example, and `examples/data/line-chart.json` file to see the format of data of a line chart.
 
