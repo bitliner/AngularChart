@@ -50,7 +50,7 @@ All attributes are optional, except xData and yData
 
 ## TODO
 
-* support for more libraries to build the charts
-* support for more types of charts 
+* support for more libraries to build the charts (d3)
+* support for more types of charts (pie chart, etc.)
 
 
