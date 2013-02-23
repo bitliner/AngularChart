@@ -14,6 +14,9 @@ For a line chart, put in your html file:
 
 where xData and yData attributes specify the name of the variables that point to the chart data. This variables must be created in corresponding angularjs scope (in the example *lineChartXData* and *lineChartYData* are variables declared in corresponding angularjs scope).
 
+This tag produces the following chart:
+![Example image](https://github.com/bitliner/AngularChart/raw/master/examples/img/screenshot.png "Example image")
+
 ### Format of chart data
 
 It depends on type of the chart.
