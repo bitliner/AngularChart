@@ -12,7 +12,7 @@ For a line chart, put in your html file:
 <chart title="Line chart example" xData="lineChartXData" yData="lineChartYData" xName="Month" yName="Hit" ></chart>
 `
 
-where xData and yData attributes specify the name of the variables that point to the chart data. This variables must be created in corresponding angularjs scope.
+where xData and yData attributes specify the name of the variables that point to the chart data. This variables must be created in corresponding angularjs scope (in the example *lineChartXData* and *lineChartYData* are variables declared in corresponding angularjs scope).
 
 ### Format of chart data
 
