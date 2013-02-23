@@ -19,7 +19,7 @@ angular.module('AngularChart', []).directive('chart', function () {
                     x:-20 //center
                 },
                 subtitle:{
-                    text:'by top K pattern',
+                    text:attrs.subtitle,
                     x:-20
                 },
                 xAxis:{
