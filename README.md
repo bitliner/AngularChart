@@ -23,7 +23,7 @@ If the chart is a line chart, the data is an object with 2 properties:
 ** name: specify the name of the line
 ** data: an array of values. The lenght of the array is the same length of xData, and the value in each position of the array coresponds to the x value at same position in the xData array
 
-See the example, and `examples/data/line-.chart.json` file to see the format of data of a line chart.
+See the example, and `examples/data/line-chart.json` file to see the format of data of a line chart.
 
 ### Type of charts
 
