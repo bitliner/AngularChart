@@ -23,7 +23,7 @@ It depends on type of the chart.
 If the chart is a line chart, the data is an object with 2 properties:
 * **xData**: data of x axis, it is an array of values
 * **yData**: data of y axis, it is an array of objects, where every has 2 parameters
-  * **name**: specify the name of the line 
+  * **name**: the name of the line 
   * **data**: an array of values. The lenght of the array is the same length of xData, and the value in each position of the array coresponds to the x value at same position in the xData array
 
 See the example, and `examples/data/line-chart.json` file to see the format of data of a line chart.
@@ -39,8 +39,8 @@ The following attributes of `chart` tag are now supported:
 * yName: the name of y axis
 * yInterval: the interval of markers of y axis (if not specified the library calculates it automatically)
 * yMin: the minimum value of y axis (if not specified the library calculates it automatically)
-* yMax the minimum value of y axis (if not specified the library calculates it automatically)
-* formatter: the name fo variable in the scope that points to function/value that will be displayed when the mouse is over a point of a line
+* yMax the maximum value of y axis (if not specified the library calculates it automatically)
+* formatter: the name of variable in the scope that points to function/value that will be displayed when the mouse is over a point of a line
 
 All attributes are optional, except xData and yData
 
@@ -50,6 +50,7 @@ Now it supports only a line chart, and it uses HighCharts library to build the c
 
 ## TODO
 
+* defining the unique interface to other libraries
 * support for more libraries to build the charts (d3)
 * support for more types of charts (pie chart, etc.)
 
