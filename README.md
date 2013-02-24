@@ -50,7 +50,7 @@ Now it supports only a line chart, and it uses HighCharts library to build the c
 
 ## TODO
 
-* defining the unique interface to other libraries
+* define the unique interface to other libraries
 * support for more libraries to build the charts (d3)
 * support for more types of charts (pie chart, etc.)
 
