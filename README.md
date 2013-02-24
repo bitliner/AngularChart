@@ -1,7 +1,7 @@
 # AngularChart
 
-AngularChart is an angularjs directive that simplifies the creation of a chart. 
-It lets you to create a chart in a declarative way with the minimum effort using specific html tags and attributes.
+AngularChart is an angularjs directive to build charts quickly and easily. 
+It lets you to create a chart in a declarative way using specific html tags and attributes with the minimum effort. Indeed it is a unique interface to complex and specific libraries for charts.
 
 ## Usage 
 
